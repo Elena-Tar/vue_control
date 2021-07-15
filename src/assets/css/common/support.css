@@ -1,0 +1,31 @@
+.support {
+  padding-top: 165px;
+  padding-bottom: 100px;
+}
+.support .wrap {
+  background-color: #DBFFE9;
+  border-radius: 20px;
+}
+.support h2 {
+  padding: 40px 10px 0;
+  text-align: center;
+  color: #FF823B;
+}
+.support p {
+  padding: 30px 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .support {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+
+  .support h2 {
+    font-size: 34px;
+  }
+
+  .support p {
+    padding: 16px 10px;
+  }
+}

@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    background: #FF823B;
+    border: 2px solid #FF823B;
+    border-radius: 32px;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    line-height: 60px;
+    cursor: pointer;
+
+
+    a {
+        font-size: 18px;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+        font-weight: bold;
+        line-height: 60px;
+    }
+
+    &:hover {
+        background-color: #fff;
+        border: 2px solid #FF823B;
+        color: #124F48;
+
+        a {
+            color: #124F48;
+        }
+
+    }
+}
+
+
+.note {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #FF6107;
+    background: #FFFFFF;
+    border: 1px solid #F2FAF9;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 80px;
+    color: #021D1A;
+}
+
+.text_content {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #464646;
+}
+
+.h3_title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #021D1A;
+}
+
+.form_text_err {
+    color: rgb(228, 33, 33);
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width:900px) {
+    .title {
+        font-size: 34px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

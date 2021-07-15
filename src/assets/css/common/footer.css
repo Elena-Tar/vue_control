@@ -1,0 +1,225 @@
+footer {
+  background: #E9FBF9;
+}
+footer h2 {
+  width: calc((100% * 600) / 1110);
+  margin: 0 auto;
+  padding-top: 70px;
+  line-height: 66px;
+  text-align: center;
+}
+footer .form_subscribe {
+  width: calc((100% * 700) / 1110);
+  margin: 20px auto;
+  border-radius: 31.5px;
+  position: relative;
+}
+footer input {
+  width: 100%;
+  height: 60px;
+  border-radius: 31.5px;
+  border: none;
+  outline: none;
+  padding-left: 24px;
+  background: #fff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding-left: 24px;
+}
+footer input::placeholder {
+  font-size: 16px;
+}
+footer input:hover {
+  border: 1px solid #FF823B;
+}
+footer input.has_err {
+  border: 2px solid #e42121;
+}
+footer input:-webkit-autofill,
+footer input:-webkit-autofill:hover,
+footer input:-webkit-autofill:focus,
+footer input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+footer .btn_footer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+footer .btn_footer:hover {
+  background-color: #fff;
+  border: 2px solid #FF823B;
+  color: #124F48;
+}
+footer .check_mark {
+  padding: 6px;
+}
+footer .main {
+  padding-top: 114px;
+  background: #E9FBF9;
+}
+footer .main .flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .main p {
+  padding-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FF823B;
+}
+footer .main .footer_menu {
+  display: flex;
+  margin-left: 46px;
+  padding-top: 40px;
+}
+footer .main .footer_menu li {
+  margin-right: 68px;
+}
+footer .main .footer_menu li:last-child {
+  margin-right: 0;
+}
+footer .main .footer_menu li .nav-link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #124F48;
+}
+footer .main .footer_menu li .nav-link.router-link-exact-active {
+  color: #FF7715;
+}
+footer .main .footer_menu li .nav-link:hover {
+  font-weight: bold;
+  color: #FF823B;
+}
+footer .main .contacts a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  color: #124F48;
+  text-decoration: none;
+}
+footer .main .contacts a:hover {
+  color: #FF823B;
+}
+footer .bottom {
+  background-color: #124F48;
+  width: 100%;
+  padding: 14px;
+}
+footer .bottom .flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .bottom .text {
+  padding: 6px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+footer .bottom .social_network ul {
+  display: flex;
+}
+footer .bottom .social_network ul li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.51);
+  margin-right: 20px;
+}
+footer .bottom .social_network ul li:last-child {
+  margin-right: 0;
+}
+footer .bottom .social_network ul li:hover {
+  background-color: #fff;
+}
+footer .bottom .social_network ul li a {
+  color: #124F48;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 930px) {
+  footer .main {
+    padding-top: 60px;
+  }
+
+  footer .main .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .main .footer_menu {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer .main .footer_menu li {
+    width: 100%;
+  }
+
+  footer .main .contacts {
+    text-align: center;
+    padding: 26px 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  footer h2 {
+    width: 100%;
+    padding: 40px 10px 10px;
+  }
+
+  footer .form_subscribe {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px) {
+  footer .btn_text {
+    display: none;
+  }
+
+  footer .btn_footer {
+    width: 60px;
+  }
+
+  footer .main .footer_menu {
+    display: block;
+  }
+
+  footer .bottom .text {
+    margin: 0 auto;
+  }
+
+  footer .bottom .social_network {
+    margin: 10px auto;
+  }
+}
